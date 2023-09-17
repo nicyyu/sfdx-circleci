@@ -25,7 +25,7 @@ jobs:
       - run:
           name: Install CLI
           command: |
-            ./sfdx/install
+            ./sfdx/bin/sfdx
             sfdx
             mkdir tmp
       - run:
